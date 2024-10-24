@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.canvas-container {
+    border: 2px solid #007BFF; /* Цвет рамки */
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block; /* Чтобы контейнер не занимал всю ширину */
+}
+
+canvas {
+    display: block; /* Убираем пробелы под канвасом */
+    margin: 0 auto; /* Центрируем канвас внутри контейнера */
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.coordinates {
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: left; /* Выравнивание текста влево */
+}
